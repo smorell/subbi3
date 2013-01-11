@@ -2,7 +2,7 @@
 
 	@section('form')
 	
-		{{ Form::open('website/thanks');  }}
+		{{ Form::open('/');  }}
     			<div class="grid_6 alpha">
     				<fieldset>
     					<label for="first_name">Vorname:</label>

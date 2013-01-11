@@ -41,6 +41,14 @@ Route::get('/', function()
 Route::post('/', function()
 {
 
+	$data = Input::all();
+	
+
+	
+	$mail = View::make('front.mail')->with(array('data' => $data))->render();
+	
+
+
 	// If you do not want to auto-load the bundle, you can use this
 	Bundle::start('swiftmailer');
 	
@@ -49,14 +57,14 @@ Route::post('/', function()
 	
 	// Construct the message
 	$message = Swift_Message::newInstance('Message From Website')
-	    ->setFrom(array('sven@3xperts.com'=>'Mr Example'))
-	    ->setTo(array('sven@3xperts.com'=>'Mr Example'))
-	    ->addPart('My Plain Text Message','text/plain')
-	    ->setBody('My HTML Message','text/html');
+	    ->setFrom(array('sven@subbis.com'=>'Mr Example'))
+	    ->setTo(array('st40fs@gmail.com'=>'Mr Example'))
+	    ->setBody($mail,'text/plain');
 	
 	// Send the email
 	$mailer->send($message);
-
+	
+	// show something
 	return View::make('front.welcome');
 });
 
