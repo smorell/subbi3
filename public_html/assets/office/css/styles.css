@@ -1,0 +1,139 @@
+
+/* ======== Mini Styles for skeleton / remove later from halfling ============ */
+footer#footer{
+	background: none repeat scroll 0 0 #E2E2E2;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+section#footer-menu{
+	background: none repeat scroll 0 0 #D2D2D2;
+    padding: 20px 0;;
+}
+section#container{
+	min-height: 500px;
+	
+}
+
+/* ======== Styles for the Admin Section ============ */
+
+header#panelheader{
+	padding-top: 20px;
+}
+.navbar .brand{
+    background: none repeat scroll 0 0 #D99E25;
+    color: #FFFFFF;
+    font-family: 'Anton',sans-serif;
+    font-size: 24px;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#panel{
+	min-height: 800px;
+}
+
+
+.accordion-heading .accordion-toggle{
+	background: #eee;
+}
+
+.form-horizontal .controls {
+	margin-left: 120px;
+}
+.form-horizontal .control-label {
+	width: 100px;
+}
+
+/* ======== Menu for skeleton / remove with menu styles from halfling ============ */
+#menu {
+}
+#menu a {
+    text-decoration: none;
+}
+#menu ul {
+    margin-left: 9px;
+}
+#menu > ul {
+    display: block;
+    margin-left: 0;
+}
+#menu > ul > li {
+    float: left;
+    list-style: none outside none;
+    position: relative;
+}
+#menu > ul > li.first, #menu > ul > li:first-child {
+    margin-left: 0;
+}
+#menu > ul > li > a {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    display: block;
+    padding: 30px 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+#menu > ul > li > a .name {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+}
+#menu > ul > li > a .desc {
+    color: #808080;
+    display: block;
+    line-height: 12px;
+}
+#menu > ul > li > a:hover {
+    
+    border-left: 1px solid #E9E9E9;
+    border-right: 1px solid #E9E9E9;
+}
+#menu > ul a:hover .name, #menu .current .name {
+    color: #3CB8EB !important;
+}
+#menu ul ul {
+
+    border: 1px solid #E9E9E9;
+    padding: 5px 20px;
+    position: absolute;
+    width: 160px;
+}
+#menu ul ul ul {
+}
+#menu > ul > li > ul {
+    margin-left: -22px;
+}
+#menu ul ul li {
+    border-bottom: 1px dotted #CFCFCF;
+    list-style: none outside none;
+    padding: 5px 0;
+    position: relative;
+}
+#menu ul ul li.last {
+    border-bottom: medium none !important;
+}
+#menu ul ul li.menu-last {
+    border-bottom: medium none;
+}
+#menu ul ul a {
+    color: #717171;
+    display: block;
+    font-size: 12px;
+    padding: 5px 0;
+}
+#menu ul ul a:hover {
+    color: #249a0c;
+}
+#menu li:hover {
+    visibility: inherit;
+}
+#menu li:hover ul, #menu li.sfHover ul {
+    left: 22px;
+    top: 86px;
+    z-index: 99;
+}
+#menu li li:hover ul, #menu li li.sfHover ul {
+    left: 171px;
+    top: -6px;
+}
+/* ============= End of menu =============== */

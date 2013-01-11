@@ -1,0 +1,384 @@
+# Webalizer V2.23-05 Incremental Data - 01/11/2013 17:06:42
+2013 1 11 17 6 42
+1083 616 35 28 21 28 14281412 118 43 0
+3 15 185 3 11
+0 0 0 0 0 0
+0 0 0 0 0 0
+158 68 1908021 4 39 5
+261 111 2441723 5 15 6
+56 52 1166660 5 4 4
+29 27 723755 5 5 5
+60 51 1152756 2 3 2
+96 73 1849018 5 8 5
+72 57 1222276 8 9 8
+73 68 1537008 4 4 4
+278 109 2280195 3 31 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+1 1 13904 1
+0 0 0 0
+18 17 384252 1
+18 17 384252 1
+56 51 1152756 3
+0 0 0 0
+21 19 398156 3
+20 18 387682 1
+50 43 858997 8
+57 52 1152917 4
+74 54 1436958 5
+37 35 782408 3
+97 72 1603699 8
+85 23 682680 6
+40 34 768504 2
+246 44 769124 29
+33 18 403278 2
+149 64 1907377 35
+19 18 398156 2
+0 0 0 0
+0 0 0 0
+22 2 27808 2
+40 34 768504 2
+0
+0
+0
+616
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+321
+0
+0
+1
+0
+0
+0
+134
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+0
+0
+0
+0
+0
+# -urls- 
+/assets/office/img/glyphicons-halflings.png
+0 8 0 27652 0 0
+/assets/front/img/logo-1.png
+0 49 0 440882 0 0
+/assets/front/img/icon-2.png
+0 49 0 102796 0 0
+/assets/front/css/base.css
+0 48 0 405840 0 0
+/assets/front/js/jquery.pagescroller.lite.js
+0 48 0 98940 0 0
+/assets/office/js/jquery.min.js
+0 8 0 189694 0 0
+/assets/front/css/prettyPhoto.css
+0 48 0 597570 0 0
+/assets/front/js/custom.js
+0 48 0 145500 0 0
+/assets/office/js/widgets.js
+0 8 0 156222 0 0
+/assets/front/img/ipad.png
+0 50 0 8204608 0 0
+/favicon.ico
+0 4 686961877053341712 0 0 0
+/assets/office/css/datepicker.css
+0 8 0 8680 0 0
+/assets/front/img/bg-countdown.png
+0 38 0 114450 0 0
+/assets/office/js/bootstrap-fileupload.js
+0 8 0 11712 0 0
+/assets/office/js/bootstrap.min.js
+0 8 0 51302 0 0
+/assets/office/css/bootstrap.css
+0 8 0 247056 0 0
+/assets/front/img/sprite-social.png
+0 38 0 188430 0 0
+/
+0 108 0 1799273 43 9
+/assets/front/img/icon-4.png
+0 49 0 106330 0 0
+/assets/front/css/grid.css
+0 48 0 160980 0 0
+/assets/front/js/countdown.js
+0 48 0 71670 0 0
+/assets/front/js/jquery.prettyPhoto.js
+0 48 0 756480 0 0
+/assets/front/img/icon-1.png
+0 49 0 101494 0 0
+/assets/front/img/icon-3.png
+0 49 0 100781 0 0
+/assets/office/css/styles.css
+0 8 0 5366 0 0
+/assets/office/js/superfish.js
+0 8 0 7428 0 0
+/assets/office/js/datepicker.js
+0 8 0 26356 0 0
+/assets/front/img/arrow.png
+0 38 0 53970 0 0
+# End Of Table - urls
+# -sites- (monthly)
+p5ddbb069.dip.t-dialin.net
+0 25 19 423135 1 1357306802
+/
+g226042147.adsl.alicedsl.de
+0 18 17 384252 1 1357846741
+/
+dslb-088-075-191-251.pools.arcor-ip.net
+0 20 18 384413 2 1357618900
+/
+crawl-66-249-75-225.googlebot.com
+0 2 1 13904 1 1357738678
+/
+178.20.93.52
+0 66 22 764288 1 1357239121
+/
+r186-48-19-188.dialup.adsl.anteldata.net.uy
+0 240 75 1511691 2 1357924000
+/
+24.134.56.12
+0 18 17 384252 1 1357290909
+/
+e178081126.adsl.alicedsl.de
+0 18 17 384252 1 1357814157
+/
+89.204.135.93
+0 20 17 384252 1 1357882155
+/
+178.32.77.82
+0 2 2 13904 1 1357716757
+/
+brln-4d0c10c2.pool.mediaways.net
+0 19 17 384252 1 1357814015
+/
+static-ip-69-64-51-97.inaddr.ip-pool.com
+0 1 1 13904 1 1357393565
+/
+crawl-66-249-74-214.googlebot.com
+0 2 1 13904 1 1357722420
+/
+xdsl-89-0-145-152.netcologne.de
+0 20 17 384252 1 1357556912
+/
+91-64-113-127-dynip.superkabel.de
+0 35 34 768504 2 1357893752
+/
+f052050216.adsl.alicedsl.de
+0 38 20 668454 1 1357644728
+/
+92.f5.344a.static.theplanet.com
+0 1 1 13904 1 1357499582
+/
+r186-48-19-190.dialup.adsl.anteldata.net.uy
+0 17 16 370348 0 0
+-
+p5b05a9c1.dip.t-dialin.net
+0 17 17 384252 1 1357365008
+/
+crawl-66-249-75-61.googlebot.com
+0 13 3 27969 3 1357737602
+/
+static.43.35.9.5.clients.your-server.de
+0 1 1 13904 1 1357437358
+/
+p57bb85e9.dip0.t-ipconnect.de
+0 19 17 384252 1 1357716257
+/
+pd9e72527.dip.t-dialin.net
+0 18 17 384252 1 1357378399
+/
+crawl-66-249-74-103.googlebot.com
+0 2 1 13904 1 1357722377
+/
+dslb-088-072-205-076.pools.arcor-ip.net
+0 36 34 768504 2 1357812384
+/
+r186-48-2-88.dialup.adsl.anteldata.net.uy
+0 88 44 1143411 2 1357238959
+/
+r186-48-26-202.dialup.adsl.anteldata.net.uy
+0 40 34 768504 1 1357572280
+/
+r186-48-29-247.dialup.adsl.anteldata.net.uy
+0 139 23 467676 2 1357316999
+/
+p509966dc.dip0.t-ipconnect.de
+0 19 17 384252 1 1357277938
+/
+dynamic-78-8-16-192.ssp.dialog.net.pl
+0 18 17 384252 1 1357702943
+/
+crawl-66-249-73-118.googlebot.com
+0 3 1 13904 1 1357378430
+/
+78-6-228-32-static.albacom.net
+0 2 1 13904 1 1357685740
+/
+89.204.138.78
+0 20 18 398156 1 1357649183
+/
+crawl-66-249-75-186.googlebot.com
+0 26 24 682043 2 1357751644
+/
+r186-48-0-119.dialup.adsl.anteldata.net.uy
+0 60 35 782408 1 1357341466
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+r186-48-19-188.dialup.adsl.anteldata.net.uy
+0 240 75 1511691 2 1357924000
+/
+89.204.135.93
+0 20 17 384252 1 1357882155
+/
+91-64-113-127-dynip.superkabel.de
+0 18 17 384252 1 1357893752
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://subbis.com/index.php/office/subbis_new
+0 38
+http://www.subbis.de/
+0 51
+http://subbis.com/index.php/office
+0 13
+http://subbis.de/index.php/
+0 22
+http://wiki.moonchildmedia.de/index.php
+0 1
+http://www.google.com/url
+0 1
+http://subbis.com/index.php/settings/campaign
+0 11
+http://subbis.com/index.php/office/index
+0 2
+http://subbis.com/index.php/office/subbis
+0 17
+- (Direct Request)
+0 198
+http://subbis.com/index.php/office/subbis_edit/1
+0 1
+http://subbis.com/index.php/settings/promoter
+0 1
+http://www.google.de/url
+0 5
+http://start.subbis.de/
+0 16
+subbis.com
+0 1
+http://subbis.de/
+0 385
+http://subbis.com
+0 1
+http://subbis.com/index.php/office/subbis_edit/3
+0 14
+http://subbis.com/index.php/office/
+0 12
+http://subbis.com/assets/front/css/base.css
+0 24
+http://subbis.com/
+0 269
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:5.0.1) Gecko/20100101 Firefox/5.0.1
+0 25
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0
+0 19
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko)
+0 253
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; de-de) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21
+0 18
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 42
+Mozilla/5.0 (Windows NT 6.1; rv:17.0) Gecko/20100101 Firefox/17.0
+0 19
+Googlebot-Image/1.0
+0 6
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11
+0 53
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11
+0 22
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+0 66
+Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0
+0 19
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0; tb-webde/1.8.2)
+0 20
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x4.90)
+0 1
+Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.2
+0 17
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.101 Safari/537.11
+0 22
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.52 Safari/537.17
+0 196
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
+0 18
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+0 83
+Opera/9.80 (Windows NT 6.1; U; en) Presto/2.6.31 Version/10.70
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:17.0) Gecko/20100101 Firefox/17.0
+0 72
+Coda/3057 CFNetwork/454.12.4 Darwin/10.8.0 (i386) (MacBookPro6%2C1)
+0 30
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17
+0 18
+Mozilla/3.0 (compatible; Indy Library)
+0 1
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+0 38
+Mozilla/5.0 (Windows NT 6.1; rv:18.0) Gecko/20100101 Firefox/18.0
+0 20
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20041107 Firefox/1.0
+0 1
+# End Of Table - agents
+# -search strings- 
+subbis.de
+4
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

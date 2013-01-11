@@ -1,0 +1,2 @@
+[11-Jan-2013 21:52:01 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/subbis/application/routes.php on line 55
+[11-Jan-2013 21:56:07 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/subbis/application/routes.php on line 58
