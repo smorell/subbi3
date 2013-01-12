@@ -37,3 +37,7 @@ dwsync.xml
 intermediate
 publish
 .idea
+
+# Laravel specific
+application/config/local/
+paths.php

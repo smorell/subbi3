@@ -32,25 +32,24 @@
 |
 */
 
+/*
+|--------------------------------------------------------------------------
+| The Homepage Routes
+|--------------------------------------------------------------------------
+*/
 
 Route::get('/', function()
 {
 	return View::make('front.welcome');
 });
 
-
 Route::post('/', function()
 {
 
 	$data = Input::all();
 	
-
-	
 	$mail = View::make('front.mail')->with(array('data' => $data))->render();
 	
-
-
-	// If you do not want to auto-load the bundle, you can use this
 	Bundle::start('swiftmailer');
 	
 	// Get the Swift Mailer instance
@@ -69,6 +68,38 @@ Route::post('/', function()
 	// show something
 	return View::make('front.welcome');
 });
+
+
+/*
+|--------------------------------------------------------------------------
+| The Office Routes - RESTful
+|--------------------------------------------------------------------------
+*/
+
+
+Route::get('office/subbi', function()
+{ 
+	echo "list of all subbis";
+});
+
+Route::get('office/subbi/(:any)', function($id)
+{ 
+	echo "Show subbi with ID ". $id;
+});
+
+Route::get('office/subbi/(:any)/edit', function($id)
+{ 
+	echo "Edit subbi with ID ". $id;
+});
+
+
+Route::get('office', function()
+// the dashboard
+{
+	echo "dashboard";
+});
+
+
 
 /*
 |--------------------------------------------------------------------------
