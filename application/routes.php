@@ -77,10 +77,8 @@ Route::post('/', function()
 */
 
 
-Route::get('office/subbi', function()
-{ 
-	echo "list of all subbis";
-});
+Route::get('office/subbi','office@subbi_list');
+Route::get('office/subbi/new','office@subbi_new');
 
 Route::get('office/subbi/(:any)', function($id)
 { 
@@ -92,14 +90,7 @@ Route::get('office/subbi/(:any)/edit', function($id)
 	echo "Edit subbi with ID ". $id;
 });
 
-
-Route::get('office', function()
-// the dashboard
-{
-	echo "dashboard";
-});
-
-
+Route::get('office', 'office@index');
 
 /*
 |--------------------------------------------------------------------------
