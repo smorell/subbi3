@@ -57,9 +57,9 @@ Route::post('/', function()
 	$mailer = IoC::resolve('mailer');
 	
 	// Construct the message
-	$message = Swift_Message::newInstance('Message From Website')
-	    ->setFrom(array('sven@subbis.com'=>'Mr Example'))
-	    ->setTo(array('st40fs@gmail.com'=>'Mr Example'))
+	$message = Swift_Message::newInstance('Anmeldung auf Website')
+	    ->setFrom(array('info@subbis.de'=>'Subbis Anmeldeformular'))
+	    ->setTo(array('info@subbis.de'=>''))
 	    ->setBody($mail,'text/html');
 
 	
