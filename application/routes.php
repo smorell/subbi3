@@ -32,6 +32,7 @@
 |
 */
 
+
 Route::get('/', function()
 {
 	return View::make('front.welcome');
@@ -59,7 +60,11 @@ Route::post('/', function()
 	$message = Swift_Message::newInstance('Message From Website')
 	    ->setFrom(array('sven@subbis.com'=>'Mr Example'))
 	    ->setTo(array('st40fs@gmail.com'=>'Mr Example'))
+<<<<<<< HEAD
 	    ->setBody($mail,'text/plain');
+=======
+	    ->setBody($mail,'text/html');
+>>>>>>> 33d8ac45e71522b2edc04913c9c351241ec62ac8
 	
 	// Send the email
 	$mailer->send($message);
@@ -67,7 +72,6 @@ Route::post('/', function()
 	// show something
 	return View::make('front.welcome');
 });
-
 
 /*
 |--------------------------------------------------------------------------
