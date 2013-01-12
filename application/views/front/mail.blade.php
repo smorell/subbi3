@@ -7,3 +7,4 @@
 <p>Strasse: {{ $data['street'] }}</p>
 <p>PLZ: {{ $data['zipcode'] }}</p>
 <p>Ort: {{ $data['city'] }}</p>
+
