@@ -61,6 +61,7 @@ Route::post('/', function()
 	    ->setFrom(array('sven@subbis.com'=>'Mr Example'))
 	    ->setTo(array('st40fs@gmail.com'=>'Mr Example'))
 	    ->setBody($mail,'text/html');
+
 	
 	// Send the email
 	$mailer->send($message);
