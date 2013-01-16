@@ -34,8 +34,8 @@
     			<div class="grid_6 omega">
     				<label for="phone">Telefon-Nr.:</label>
     				<input type="text" name="phone" id="phone" placeholder="Telefon oder Handy" value="" />
-    				<label for="street">Strasse & Hausnr.</label>
-    				<input type="text" name="street" id="street" placeholder="Strasse und Hausnummer" value="" />
+    				<label for="address1">Strasse & Hausnr.</label>
+    				<input type="text" name="address1" id="address1" placeholder="Strasse und Hausnummer" value="" />
     				<label>PLZ und Ort:</label>
     				<div style="height:56px;">
     					<input type="text" name="zipcode" id="zipcode" placeholder="PLZ" style="width:100px; float:left; margin-right:10px" value="" />

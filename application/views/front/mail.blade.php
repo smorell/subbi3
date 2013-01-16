@@ -4,7 +4,7 @@
 <p>Situation: {{ $data['situation'] }}</p>
 <p>Anrede: {{ $data['salutation'] }}</p>
 <p>Fon: {{ $data['phone'] }}</p>
-<p>Strasse: {{ $data['street'] }}</p>
+<p>Strasse: {{ $data['address1'] }}</p>
 <p>PLZ: {{ $data['zipcode'] }}</p>
 <p>Ort: {{ $data['city'] }}</p>
 

@@ -56,5 +56,8 @@
 
 
 @render('office.assets.footer')
+
+    @section('extra_scripts')
+    @yield_section
 </body>
 </html>

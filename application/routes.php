@@ -1,36 +1,6 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Simply tell Laravel the HTTP verbs and URIs it should respond to. It is a
-| breeze to setup your application using Laravel's RESTful routing and it
-| is perfectly suited for building large applications and simple APIs.
-|
-| Let's respond to a simple GET request to http://example.com/hello:
-|
-|		Route::get('hello', function()
-|		{
-|			return 'Hello World!';
-|		});
-|
-| You can even respond to more than one URI:
-|
-|		Route::post(array('hello', 'world'), function()
-|		{
-|			return 'Hello World!';
-|		});
-|
-| It's easy to allow URI wildcards using (:num) or (:any):
-|
-|		Route::put('hello/(:any)', function($name)
-|		{
-|			return "Welcome, $name.";
-|		});
-|
-*/
+
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +12,7 @@ Route::get('/', function()
 {
 	return View::make('front.welcome');
 });
+
 
 Route::post('/', function()
 {
@@ -65,8 +36,13 @@ Route::post('/', function()
 	// Send the email
 	$mailer->send($message);
 	
+	// save the data
+	Subbi::create($data);
+
 	// show something
 	return View::make('front.welcome');
+
+	
 });
 
 
@@ -76,19 +52,40 @@ Route::post('/', function()
 |--------------------------------------------------------------------------
 */
 
+// ============================> subbis <==================================
 
-Route::get('office/subbi','office@subbi_list');
-Route::get('office/subbi/new','office@subbi_new');
 
-Route::get('office/subbi/(:any)', function($id)
+Route::get('office/subbi/new','office.subbi@subbi_new');
+Route::get('office/subbi','office.subbi@subbi_list');
+Route::post('office/subbi', function()
+{
+	// create a new subbi
+	Subbi::create(Input::all());
+	return Redirect::to('office/subbi');
+});
+Route::put('office/subbi/(:num)','office.subbi@subbi_update');
+Route::get('office/subbi/(:num)', function($id)
 { 
 	echo "Show subbi with ID ". $id;
 });
+Route::get('office/subbi/(:num)/edit','office.subbi@subbi_edit');
 
-Route::get('office/subbi/(:any)/edit', function($id)
-{ 
-	echo "Edit subbi with ID ". $id;
+
+// ============================> Sellers <==================================
+
+Route::get('office/seller/new','office.seller@seller_new');
+Route::get('office/seller','office.seller@seller_list');
+Route::post('office/seller', function()
+{
+	// create a new seller
+	Seller::create(Input::all());
+	return Redirect::to('office/seller');
 });
+Route::put('office/seller/(:num)','office@seller_update');
+Route::get('office/seller/(:num)/edit','office@seller_edit');
+
+// ===============================> Misc <==================================
+
 
 Route::get('office', 'office@index');
 
