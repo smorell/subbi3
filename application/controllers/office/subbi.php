@@ -11,7 +11,7 @@ class Office_Subbi_Controller extends Base_Controller
 
 
 
-    public function action_subbi_list()
+    public function action_list()
     {
      	$subbis = Subbi::get();
 
@@ -25,7 +25,7 @@ class Office_Subbi_Controller extends Base_Controller
     }
 
 
-    public function action_subbi_new()
+    public function action_new()
     {
      	$promo = Promoter::get();
      	$camp = Campaign::get();
@@ -39,7 +39,7 @@ class Office_Subbi_Controller extends Base_Controller
     }
 
 
-    public function action_subbi_edit($id)
+    public function action_edit($id)
     {
         
 
@@ -60,7 +60,7 @@ class Office_Subbi_Controller extends Base_Controller
 
 
 
-    public function action_subbi_update()
+    public function action_update($id)
     {
         // this is dirty but faster
 

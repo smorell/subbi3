@@ -25,7 +25,7 @@
 							<ul class="dropdown-menu">
 								<li>{{HTML::link('office','Einstellungen')}}</li>
 								<li class="divider"></li>
-								<li>{{HTML::link('office/promo','Werber')}}</li>
+								<li>{{HTML::link('office/promoter','Werber')}}</li>
 								<li>{{HTML::link('office/seller','Akquisiteure')}}</li>
 								<li>{{HTML::link('office/location','Büros')}}</li>
 								<li>{{HTML::link('office/campaign','Kampagnen')}}</li>

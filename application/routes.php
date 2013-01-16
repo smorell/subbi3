@@ -55,34 +55,62 @@ Route::post('/', function()
 // ============================> subbis <==================================
 
 
-Route::get('office/subbi/new','office.subbi@subbi_new');
-Route::get('office/subbi','office.subbi@subbi_list');
+Route::get('office/subbi/new','office.subbi@new');
+Route::get('office/subbi','office.subbi@list');
 Route::post('office/subbi', function()
 {
 	// create a new subbi
 	Subbi::create(Input::all());
 	return Redirect::to('office/subbi');
 });
-Route::put('office/subbi/(:num)','office.subbi@subbi_update');
+Route::put('office/subbi/(:num)','office.subbi@update');
 Route::get('office/subbi/(:num)', function($id)
 { 
 	echo "Show subbi with ID ". $id;
 });
-Route::get('office/subbi/(:num)/edit','office.subbi@subbi_edit');
+Route::get('office/subbi/(:num)/edit','office.subbi@edit');
 
 
 // ============================> Sellers <==================================
 
-Route::get('office/seller/new','office.seller@seller_new');
-Route::get('office/seller','office.seller@seller_list');
+Route::get('office/seller/new','office.seller@new');
+Route::get('office/seller','office.seller@list');
 Route::post('office/seller', function()
 {
 	// create a new seller
 	Seller::create(Input::all());
 	return Redirect::to('office/seller');
 });
-Route::put('office/seller/(:num)','office@seller_update');
-Route::get('office/seller/(:num)/edit','office@seller_edit');
+Route::put('office/seller/(:num)','office.seller@update');
+Route::get('office/seller/(:num)/edit','office.seller@edit');
+
+
+// ============================> Promoter <==================================
+
+Route::get('office/promoter/new','office.promoter@new');
+Route::get('office/promoter','office.promoter@list');
+Route::post('office/promoter', function()
+{
+	// create a new promoter
+	Promoter::create(Input::all());
+	return Redirect::to('office/promoter');
+});
+Route::put('office/promoter/(:num)','office.promoter@update');
+Route::get('office/promoter/(:num)/edit','office.promoter@edit');
+
+
+// ============================> Campaign <==================================
+
+Route::get('office/campaign/new','office.campaign@new');
+Route::get('office/campaign','office.campaign@list');
+Route::post('office/campaign', function()
+{
+	// create a new campaign
+	Campaign::create(Input::all());
+	return Redirect::to('office/campaign');
+});
+Route::put('office/campaign/(:num)','office.campaign@update');
+Route::get('office/campaign/(:num)/edit','office.campaign@edit');
 
 // ===============================> Misc <==================================
 

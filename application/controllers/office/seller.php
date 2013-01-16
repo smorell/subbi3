@@ -4,7 +4,7 @@ class Office_Seller_Controller extends Base_Controller
 {
 
 
-    public function action_seller_list()
+    public function action_list()
     {
      	$sellers = Seller::get();
 
@@ -18,7 +18,7 @@ class Office_Seller_Controller extends Base_Controller
     }
 
 
-    public function action_seller_new()
+    public function action_new()
     {
      	$promo = Promoter::get();
      	$camp = Campaign::get();
@@ -32,7 +32,7 @@ class Office_Seller_Controller extends Base_Controller
     }
 
 
-    public function action_seller_edit($id)
+    public function action_edit($id)
     {
         
 
@@ -53,7 +53,7 @@ class Office_Seller_Controller extends Base_Controller
 
 
 
-    public function action_seller_update()
+    public function action_update()
     {
         // this is dirty but faster
 
